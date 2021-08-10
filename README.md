@@ -14,6 +14,22 @@ A test should contain three blocks which are separated by one empty line. Each b
 - <b>When (Action):</b> Call the method or action that you like to test
 - <b>Then (Output):</b> Execute assertions to verify the correct output or behavior of the action.
 
+### Examples
+
+    @Test
+    void getByFirstname_shouldReturnUser() {
+
+        // Given
+        final String firstname = "Pratya";
+
+        // when 
+        UserDTO actaulResult = userDao.getByFirstname(firstname);
+
+        //then
+        assertThat(actaulResult).isNotNull();
+
+    }
+
 ### Reference
 
 - https://frontbackend.com/spring-boot/spring-boot-2-junit-5-mockito

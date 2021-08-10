@@ -3,8 +3,8 @@
 
 ### Naming Test Methods (การตั้งชื่อ Methods)
 
- [UnitOfWork_StateUnderTest_ExpectedBehavior]
- [ฟังชันที่ต้องการทดสอบ_อินพุตหรือสถานะ_ผลลัพธ์ที่คาดหวัง]
+- [UnitOfWork_StateUnderTest_ExpectedBehavior]
+- [ฟังชันที่ต้องการทดสอบ_อินพุตหรือสถานะ_ผลลัพธ์ที่คาดหวัง]
  
 ### Given, When, Then 
 

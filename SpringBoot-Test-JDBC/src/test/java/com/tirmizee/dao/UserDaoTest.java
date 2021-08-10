@@ -22,8 +22,13 @@ public class UserDaoTest {
 	@Test
 	void getByUsername_shouldReturnUser() {
 		
-		UserDTO actaulResult = userDao.getByFirstname("Pratya");
+		// Given
+		final String firstname = "Pratya";
 		
+		// when 
+		UserDTO actaulResult = userDao.getByFirstname(firstname);
+		
+		//then
 		assertThat(actaulResult).isNotNull();
 		
 	}

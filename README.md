@@ -17,7 +17,7 @@ A test should contain three blocks which are separated by one empty line. Each b
 ### Examples
 
     @Test
-    void getByFirstname_shouldReturnUser() {
+    void getByFirstname_shouldReturnValue() {
 
         // Given
         final String firstname = "Pratya";

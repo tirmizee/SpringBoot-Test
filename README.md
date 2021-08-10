@@ -35,3 +35,4 @@ A test should contain three blocks which are separated by one empty line. Each b
 - https://frontbackend.com/spring-boot/spring-boot-2-junit-5-mockito
 - https://phauer.com/2019/modern-best-practices-testing-java
 - https://www.petrikainulainen.net/programming/testing/writing-clean-tests-naming-matters/
+- https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#spring-testing-annotation-sql

@@ -20,7 +20,7 @@ public class UserDaoTest {
 	private UserDao userDao;
 	
 	@Test
-	void getByUsername_shouldReturnUser() {
+	void getByFirstname_shouldReturnUser() {
 		
 		// Given
 		final String firstname = "Pratya";

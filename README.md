@@ -18,19 +18,19 @@ A test should contain three blocks which are separated by one empty line. Each b
 
 - simple naming test method
 
-    @Test
-    void getByFirstname_shouldReturnValue() {
+      @Test
+      void getByFirstname_shouldReturnValue() {
 
-        // Given
-        final String firstname = "Pratya";
+          // Given
+          final String firstname = "Pratya";
 
-        // when 
-        UserDTO actaulResult = userDao.getByFirstname(firstname);
+          // when 
+          UserDTO actaulResult = userDao.getByFirstname(firstname);
 
-        //then
-        assertThat(actaulResult).isNotNull();
+          //then
+          assertThat(actaulResult).isNotNull();
 
-    }
+      }
 
 ### Reference
 

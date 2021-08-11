@@ -10,8 +10,8 @@
 
 A test should contain three blocks which are separated by one empty line. Each block of code should be as short as possible. Use subfunctions to shorten these blocks.
 
-- <b>Given (Input):</b> Test preparation like creating data or configure mocks
-- <b>When (Action):</b> Call the method or action that you like to test
+- <b>Given (Input):</b> Test preparation like creating data or configure mocks (เตรียมการทดสอบเช่นการสร้างข้อมูลสำหรับทดสอบหรือกำหนดค่า mocks)
+- <b>When (Action):</b> Call the method or action that you like to test (เรียก method ที่คุณต้องการทดสอบ)
 - <b>Then (Output):</b> Execute assertions to verify the correct output or behavior of the action.
 
 ### Examples

@@ -37,7 +37,7 @@ A test should contain three blocks which are separated by one empty line. Each b
 - @WebMvcTest or @AutoConfigureMockMvc = Unit testing REST Controller (require MockMvc object)
 - @DataJpaTest = Unit testing DAO Layer
 - @DataJdbcTest
-
+- @MockBean
 ### Reference
 
 - https://frontbackend.com/spring-boot/spring-boot-2-junit-5-mockito

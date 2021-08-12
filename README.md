@@ -32,6 +32,12 @@ A test should contain three blocks which are separated by one empty line. Each b
 
       }
 
+### Annotation
+
+- @WebMvcTest = Unit testing REST Controller 
+- @DataJpaTest = Unit testing DAO Layer
+
+
 ### Reference
 
 - https://frontbackend.com/spring-boot/spring-boot-2-junit-5-mockito

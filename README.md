@@ -36,7 +36,7 @@ A test should contain three blocks which are separated by one empty line. Each b
 
 - @WebMvcTest or @AutoConfigureMockMvc = Unit testing REST Controller (require MockMvc object)
 - @DataJpaTest = Unit testing DAO Layer
-
+- @DataJdbcTest
 
 ### Reference
 
